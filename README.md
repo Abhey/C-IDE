@@ -1,3 +1,3 @@
 # C-IDE
 
-As the name suggests C-IDE is a C and C++ IDE for systems running Linux. C-IDE is lightweight IDE. Although most of the work in this project is over but some features like autoindentation and code completion still needs to be implemented.
+C-IDE is a lightweight C and C++ IDE for systems running Linux. Some of the features include auto-indentation, code highlighting, and code completion. Whenever a new Java application project is built with a main class, C-IDE will copy all of the JAR files to its dist/lib folder. To run the project from the command line, go to the dist folder and type: java -jar "legendary-eureka.jar"

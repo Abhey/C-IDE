@@ -69,7 +69,7 @@ public class Eureka extends JFrame implements KeyListener,MouseListener,CaretLis
         BufferedReader br ;
         try {
             
-            String curDir = System.getProperty("user.dir") + "/src";
+            String curDir = (new File(Eureka.class.getProtectionDomain().getCodeSource().getLocation().getPath())).getParent();
             
             br = new BufferedReader(new FileReader(curDir + "/JavaKeyword.txt"));
             String keyword = "";

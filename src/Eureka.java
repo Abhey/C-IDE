@@ -809,12 +809,27 @@ public class Eureka extends JFrame implements KeyListener,MouseListener,CaretLis
         M4.setText("Help");
 
         Item16.setText("Help Contents");
+        Item16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Item16ActionPerformed(evt);
+            }
+        });
         M4.add(Item16);
 
         Item17.setText("Keyboard Shortcut Card");
+        Item17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Item17ActionPerformed(evt);
+            }
+        });
         M4.add(Item17);
 
         Item18.setText("About");
+        Item18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Item18ActionPerformed(evt);
+            }
+        });
         M4.add(Item18);
 
         MenuBar.add(M4);
@@ -1524,6 +1539,24 @@ public class Eureka extends JFrame implements KeyListener,MouseListener,CaretLis
         // TODO add your handling code here:
         RedoButton.doClick();
     }//GEN-LAST:event_Item7ActionPerformed
+
+    // Add code for keyboard shortcut card here ...........
+    
+    private void Item17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Item17ActionPerformed
+        // TODO(3)
+    }//GEN-LAST:event_Item17ActionPerformed
+
+    // Add code for about here ...........
+    
+    private void Item18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Item18ActionPerformed
+        // TODO(1) 
+    }//GEN-LAST:event_Item18ActionPerformed
+
+    // Add code for help content here ...........
+    
+    private void Item16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Item16ActionPerformed
+        // TODO(2)
+    }//GEN-LAST:event_Item16ActionPerformed
 
     private int compile(){
         int index=TabbedPane.getSelectedIndex();

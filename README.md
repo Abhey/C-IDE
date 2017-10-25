@@ -31,3 +31,6 @@ contents of zip file. Open terminal in the newly extracted folder and run the fo
 
 Currently only Linux based operating systems are supported, support for Windows and Mac OS 
 X will be added soon.
+
+# Contact
+1. Abhey Rana

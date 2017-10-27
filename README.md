@@ -33,4 +33,4 @@ Currently only Linux based operating systems are supported, support for Windows 
 X will be added soon.
 
 # Contact
-1. Abhey Rana
+1. Abhey Rana - abheyr@acm.org

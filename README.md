@@ -34,3 +34,7 @@ X will be added soon.
 
 # Contact
 1. Abhey Rana - abheyr@acm.org
+
+
+# Contribute
+Feel free to contribute to project.PR's are welcome.
